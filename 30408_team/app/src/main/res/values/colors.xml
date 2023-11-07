@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blue">#008EFF</color>
+    <color name="light_blue">#00B0FF</color>
+    <color name="half_transparent_blue">#80008EFF</color>
+    <color name="half_transparent_light_blue">#8000B0FF</color>
 </resources>
