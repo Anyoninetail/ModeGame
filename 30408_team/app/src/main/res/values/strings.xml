@@ -21,4 +21,20 @@
     <string name="blueMinus">파란팀 점수 감소</string>
     <string name="teamTitle">팀 정하기</string>
     <string name="memo">메모장</string>
+    <string name="wallet">가상 지갑</string>
+    <string name="nine">9</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="seven">7</string>
+    <string name="teammate">팀원배치</string>
+    <string name="team1">1팀</string>
+    <string name="team2">2팀</string>
+    <string name="peopleNumber">0명</string>
+    <string name="money">소지금: 1,000,000</string>
+    <string name="minusMoney">출금</string>
+    <string name="plusMoney">입금</string>
+    <string name="diceResult">2가 나왔습니다!</string>
+    <string name="diceRoll">주사위 굴리기</string>
+    <string name="appTitle_kr">모드게임</string>
+    <string name="powerOff">종료</string>
 </resources>

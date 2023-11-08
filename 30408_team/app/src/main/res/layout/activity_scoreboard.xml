@@ -73,7 +73,8 @@
             android:layout_height="50dp"
             android:layout_marginStart="20dp"
             android:layout_marginBottom="35dp"
-            android:background="@color/blue"
+            android:background="@drawable/plus"
+            android:backgroundTint="@color/red"
             android:contentDescription="@string/redPlus"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -83,7 +84,8 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginStart="10dp"
-            android:background="@color/black"
+            android:background="@drawable/minus"
+            android:backgroundTint="@color/red"
             android:contentDescription="@string/redMinus"
             app:layout_constraintBottom_toBottomOf="@id/redPlus"
             app:layout_constraintStart_toEndOf="@id/redPlus" />
@@ -94,7 +96,8 @@
             android:layout_height="50dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="35dp"
-            android:background="@color/black"
+            android:background="@drawable/minus"
+            android:backgroundTint="@color/blue"
             android:contentDescription="@string/blueMinus"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
@@ -104,7 +107,8 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginEnd="10dp"
-            android:background="@color/blue"
+            android:background="@drawable/plus"
+            android:backgroundTint="@color/blue"
             android:contentDescription="@string/bluePlus"
             app:layout_constraintBottom_toBottomOf="@id/blueMinus"
             app:layout_constraintEnd_toStartOf="@id/blueMinus" />
@@ -112,12 +116,62 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
+        android:id="@+id/scoreboardImg"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:layout_marginHorizontal="25dp"
         android:layout_marginTop="100dp"
-        android:background="@color/black"
+        android:background="@drawable/scoreboard"
+        android:contentDescription="@string/scoreboard"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nine"
+        android:textSize="100sp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/scoreboardImg"
+        app:layout_constraintTop_toTopOf="@id/scoreboardImg"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="65dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seven"
+        android:textSize="100sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/scoreboardImg"
+        app:layout_constraintTop_toTopOf="@id/scoreboardImg"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="60dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/two"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/scoreboardImg"
+        app:layout_constraintTop_toTopOf="@id/scoreboardImg"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="10dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/three"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/scoreboardImg"
+        app:layout_constraintTop_toTopOf="@id/scoreboardImg"
+        android:layout_marginTop="56dp"
+        android:layout_marginStart="10dp"
+        android:textAlignment="center"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

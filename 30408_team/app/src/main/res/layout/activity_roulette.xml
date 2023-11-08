@@ -50,7 +50,8 @@
             android:id="@+id/rouletteImg"
             android:layout_width="315dp"
             android:layout_height="315dp"
-            android:src="@color/black" />
+            android:src="@drawable/roulette"
+            android:contentDescription="룰렛 이미지" />
 
     </LinearLayout>
 
